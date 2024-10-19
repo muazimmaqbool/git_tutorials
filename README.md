@@ -7,3 +7,4 @@ Includes setups for github
 This line for testing pull request
 
 //this line is added to push local branch to github
+##this line is added to test --amend command
