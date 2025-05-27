@@ -20,3 +20,6 @@ Basic Introduction to Git and GitHub:
     GitHub Actions for automation (e.g., CI/CD pipelines)
 
 ->GitHub makes it easy to collaborate with other developers, contribute to open-source projects, and manage your own code in the cloud.
+
+->Make sure you have Git installed. You can download it from: https://git-scm.com/
+  After downloading run this command: git --version to check installed version
