@@ -1,0 +1,55 @@
+===========================
+Basic Git Commands (Setup)
+===========================
+
+1️⃣ Check Git Version (to verify installation)
+---------------------------------------------
+Command:
+    git --version
+
+This will output the installed version of Git, e.g.:
+    git version 2.42.0
+
+
+2️⃣ Set Global Username
+-----------------------
+Command:
+    git config --global user.name "Your Name"
+
+Example:
+    git config --global user.name "Muazim Maqbool"
+
+
+3️⃣ Set Global Email
+--------------------
+Command:
+    git config --global user.email "your.email@example.com"
+
+Example:
+    git config --global user.email "muazim@example.com"
+
+
+4️⃣ Check Configured Username and Email
+---------------------------------------
+Command:
+    git config user.name
+    git config user.email
+
+To check all config settings:
+    git config --list
+
+
+5️⃣ Initialize a New Git Repository
+-----------------------------------
+Command:
+    git init
+
+This will create a hidden `.git` folder in your project directory and start tracking version control.
+
+
+✅ Notes:
+--------
+- Use `--global` to set config values globally (applied to all repos).
+- You can also set username/email per project (without `--global`).
+- `git init` should be run inside the folder you want to track.
+
