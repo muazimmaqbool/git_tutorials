@@ -20,6 +20,13 @@ Welcome to the **Git Tutorial** repository! This project is designed to help beg
 
 Make sure you have Git installed. You can download it from: [https://git-scm.com/](https://git-scm.com/)
 
+### Basic intro of git and github:
+
+---
+
+Let me know if you’d like visuals (like diagrams or Git command tables) added to this README as well!
+
+
 ### Clone this repository
 
 ```bash
