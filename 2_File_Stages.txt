@@ -1,5 +1,5 @@
 ===========================
-Basic Git Terms & Commands
+Basic Git Terms, Different Stages of File & Commands
 ===========================
 
 1️⃣ git status
