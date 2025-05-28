@@ -39,7 +39,7 @@ Example:
     git add index.html
 
 To Add All Untracked Files:
-    git add .
+    git add . or git add --all or git add -A
 
 To Put Files Back to Untracked:
   git restore --staged filename 
