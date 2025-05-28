@@ -46,6 +46,10 @@ Command:
 
 This will create a hidden `.git` folder in your project directory and start tracking version control.
 
+6️⃣ To Check Files in your Folder/Directory
+-----------------------------------
+Command: ls
+
 
 ✅ Notes:
 --------
