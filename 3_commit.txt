@@ -1,0 +1,66 @@
+===============================
+Understanding git commit
+===============================
+
+1️⃣ What is a Commit?
+---------------------
+A **commit** is a snapshot of your project's tracked files at a specific point in time.
+It saves all the staged changes and allows you to track the history of your project.
+
+Think of it like a **checkpoint** or **save point** in your project.
+
+Command:
+    git commit -m "Your commit message"
+
+✅ This command commits all staged changes to the local repository.
+
+---
+
+2️⃣ Why Do We Need to Commit?
+-----------------------------
+- To keep track of changes made over time.
+- To understand what was changed and why.
+- To revert back if something breaks.
+- To collaborate with others effectively.
+- It’s the core of Git’s version control system.
+
+Each commit creates a unique ID (hash) that represents the state of the project.
+
+---
+
+3️⃣ Why Add a Commit Message?
+-----------------------------
+The `-m` flag allows you to add a short message describing what changes were made.
+
+Example:
+    git commit -m "Add login form layout and style"
+
+✅ Good commit messages make it easier to understand the project’s history.
+They help you and your team track **what**, **why**, and **when** something was changed.
+
+---
+
+4️⃣ Skipping Staging with `-a -m`
+---------------------------------
+Command:
+    git commit -a -m "Your message"
+
+What it does:
+- `-a`: Automatically stages all **tracked** files that have been modified.
+- `-m`: Adds a commit message.
+
+⚠️ Note: This only works on **already tracked files**. It will **not** include untracked (new) files.
+
+Example:
+    git commit -a -m "Fix footer alignment issue"
+
+This is a shortcut to skip `git add` before committing if you're only modifying tracked files.
+
+---
+
+✅ Summary:
+-----------
+- Use `git commit -m` to save staged changes with a message.
+- Use `git commit -a -m` to skip manual staging for tracked files.
+- Always write clear commit messages!
+
