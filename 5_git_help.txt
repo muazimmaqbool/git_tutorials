@@ -1,0 +1,83 @@
+=========================
+Git Help Command
+=========================
+
+1️⃣ git help
+-------------
+Command:
+    git help
+
+Description:
+Displays the general Git help menu. It lists commonly used Git commands and how to get more help on each.
+
+Example:
+    git help
+
+Output:
+    usage: git [--version] [--help] [-C <path>] ...
+       ...
+       The most commonly used git commands are:
+           add        Add file contents to the index
+           commit     Record changes to the repository
+           status     Show the working tree status
+           ...
+
+✅ Use this when you want to explore available Git commands.
+
+---
+
+2️⃣ git <command> --help
+-------------------------
+Command:
+    git <command> --help
+
+Description:
+Shows the detailed manual (documentation) for a specific Git command.
+Note: it redirects to a website
+Examples:
+    git status --help
+    git commit --help
+    git log --help
+
+🔹 Opens a detailed explanation with:
+- Command usage
+- Flags and options
+- Examples
+
+✅ Press `q` to exit the help page.
+
+---
+
+3️⃣ git help <command>
+-----------------------
+Another way to view the manual page for a specific command.
+
+Example:
+    git help push
+
+This is the same as:
+    git push --help
+
+---
+
+4️⃣ git help --all
+-------------------
+Command:
+    git help --all
+
+Description:
+Displays a complete list of all available Git commands — not just the commonly used ones.
+
+Useful when you want to explore advanced or lesser-known commands.
+
+---
+
+✅ Summary
+----------
+- `git help`: Overview of common commands
+- `git <command> --help`: In-depth help for a specific command
+- `git help --all`: See all available Git commands
+
+📌 Tip:
+You can also check the official documentation online:  
+https://git-scm.com/docs
