@@ -1,0 +1,63 @@
+========================
+git log (used to view the commit history)
+========================
+
+1️⃣ What is `git log`?
+-----------------------
+The `git log` command shows the commit history of the repository.
+
+It displays:
+- Commit hash (unique ID)
+- Author name and email
+- Commit date and time
+- Commit message
+
+Command:
+    git log
+
+Example output:
+    commit 9a8c7b1f22f8b3dbbd38fa6dd29ed0bb9c64ac09
+    Author: Muazim Maqbool <muazim@example.com>
+    Date:   Mon May 27 10:30:00 2025 +0000
+
+        Add login component layout
+
+✅ Use this to see what has changed, who changed it, and when.
+
+---
+
+2️⃣ Common Flags with `git log`
+-------------------------------
+
+🔹 One line per commit:
+    git log --oneline
+
+Displays a compact view:
+    9a8c7b1 Add login component layout
+
+🔹 Show a specific number of commits:
+    git log -n 5     # shows last 5 commits
+
+🔹 Show commits for a specific file:
+    git log <filename>
+
+🔹 Pretty format (custom display):
+    git log --pretty=format:"%h - %an - %s"
+
+✅ This is useful for reviewing history before pushing, debugging, or collaborating with others.
+
+---
+
+3️⃣ Why Use `git log`?
+-----------------------
+- Track the evolution of your codebase.
+- See who made which changes and why.
+- Debug or revert specific commits if needed.
+- Understand project progress over time.
+
+---
+
+4️⃣ Tip:
+--------
+Use `q` to quit the log view if it opens in a pager (like `less`).
+
