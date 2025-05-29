@@ -74,6 +74,23 @@ Shows:
 
 ---
 
+7️⃣ Delete a Branch
+--------------------
+🔹 Delete a **local** branch:
+    git branch -d <branch-name>
+
+Example:
+    git branch -d feature/login
+
+✅ Use `-d` to delete a branch **safely** (Git will prevent deletion if it has unmerged changes).
+
+🔹 Force delete (dangerous):
+    git branch -D <branch-name>
+
+Use only if you are sure you want to discard unmerged changes.
+
+---
+
 ✅ Summary of Useful Commands
 ------------------------------
 🔸 List branches:

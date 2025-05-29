@@ -1,0 +1,55 @@
+========================
+Git Merge & Conflicts
+========================
+
+1️⃣ What is Git Merge?
+------------------------
+**Merging** is the process of combining changes from one branch into another.
+
+Usually, you:
+- Finish work on a feature branch
+- Merge it into `main` or another target branch
+
+This helps keep your code updated with all changes from different branches.
+
+---
+
+2️⃣ How to Merge Branches
+---------------------------
+
+🔹 Step-by-step:
+1. Switch to the branch you want to merge **into** (usually `main`):
+       git checkout main
+
+2. Merge the other branch into it:
+       git merge <branch-name>
+
+Example:
+       git merge feature/login
+
+✅ This will bring all changes from `feature/login` into `main`.
+
+---
+
+3️⃣ What Happens Internally?
+------------------------------
+- If there are **no conflicting changes**, Git will automatically merge.
+- If there **are conflicting changes**, Git will stop and ask you to resolve them.
+
+---
+
+4️⃣ Merge Conflict – What is it?
+---------------------------------
+A **merge conflict** happens when:
+- Git cannot automatically decide which change to keep.
+- Both branches edited the **same lines** in the same file.
+
+Git marks the conflict in the file like this:
+
+//Note: don't click on any of the above this is just memic of how merging/merge conflict is shown
+
+<<<<<<< HEAD
+Your current branch’s version
+=======
+Incoming branch’s version
+>>>>>>> feature/login
