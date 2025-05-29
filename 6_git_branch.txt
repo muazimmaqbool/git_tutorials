@@ -1,0 +1,97 @@
+========================
+Git Branching Basics
+========================
+
+1️⃣ What is a Git Branch?
+--------------------------
+A **branch** in Git is a separate line of development.  
+It allows you to work on features, fixes, or experiments **without affecting the main codebase**.
+
+The default branch is usually called `main` or `master`.
+
+✅ Benefits of using branches:
+- Isolate new features
+- Work on bug fixes independently
+- Test code changes without risk
+- Collaborate without breaking the main code
+
+---
+
+2️⃣ View Existing Branches
+---------------------------
+Command:
+    git branch
+
+🔹 Lists all local branches
+🔹 The current branch will have an asterisk `*` next to it
+
+---
+
+3️⃣ Create a New Branch
+------------------------
+Command:
+    git branch <branch-name>
+
+Example:
+    git branch feature/login
+
+This creates a new branch called `feature/login` but does **not** switch to it.
+
+---
+
+4️⃣ Switch to Another Branch
+-----------------------------
+Command:
+    git checkout <branch-name>
+
+Example:
+    git checkout feature/login
+
+✅ This switches your working directory to the specified branch.
+
+---
+
+5️⃣ Create and Switch to New Branch (Shortcut)
+-----------------------------------------------
+Command:
+    git checkout -b <branch-name>
+
+Example:
+    git checkout -b feature/homepage
+
+This creates the branch **and** switches to it in a single command.
+
+---
+
+6️⃣ View All Branches (Local + Remote)
+---------------------------------------
+Command:
+    git branch -a
+
+Shows:
+- Local branches
+- Remote tracking branches (from origin)
+
+---
+
+✅ Summary of Useful Commands
+------------------------------
+🔸 List branches:
+    git branch
+
+🔸 Create branch:
+    git branch new-feature
+
+🔸 Switch branch:
+    git checkout new-feature
+
+🔸 Create & switch:
+    git checkout -b new-feature
+
+🔸 All branches:
+    git branch -a
+
+---
+
+📌 Tip:
+Keep your branches named clearly (e.g., `feature/contact-form`, `fix/login-bug`) to make your work organized and understandable.
