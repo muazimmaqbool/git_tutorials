@@ -1,0 +1,97 @@
+=========================================
+Fetching, Merging, and Pulling in Git
+=========================================
+
+1️⃣ Scenario:
+-------------
+If someone makes changes to a file in the **GitHub remote repository**,  
+you’ll need to bring those changes into your **local repository** to stay updated.
+
+---
+
+2️⃣ Step-by-Step Guide Using `git fetch` and `git merge`
+---------------------------------------------------------
+
+🔹 Step 1: Fetch Changes from GitHub  
+This retrieves the latest changes from the remote, but does **not merge** them.
+
+    git fetch origin
+
+✅ This updates your local metadata about `origin` (e.g., `origin/main`, `origin/master`).
+
+---
+
+🔹 Step 2: Check Your Status
+
+    git status
+
+This will show you if your local branch is **behind** the remote branch.
+
+---
+
+🔹 Step 3: Log Remote Branch Commits
+
+    git log origin/main
+
+This shows the commit history of the remote branch.
+
+If your branch is `master`, use:
+
+    git log origin/master
+
+---
+
+🔹 Step 4: See the Differences
+
+    git diff origin/main
+
+Or:
+
+    git diff master origin/master
+
+This compares your local branch to the remote and shows what has changed.
+
+---
+
+🔹 Step 5: Merge the Changes
+
+    git merge origin/main
+
+This merges the fetched changes into your local branch.
+
+Note: If there are conflicts, Git will ask you to resolve them before completing the merge.
+
+---
+
+3️⃣ Shortcut Method: `git pull`
+-------------------------------
+Instead of running `git fetch` followed by `git merge`, you can do:
+
+    git pull origin main
+
+✅ This command:
+- Fetches the latest changes from the remote
+- Automatically merges them into your current branch
+
+It’s the most common way to update your local project with GitHub changes.
+
+---
+
+📌 Summary
+-----------
+🔸 Fetch changes without merging:
+    git fetch origin
+
+🔸 See what’s changed:
+    git diff origin/main
+
+🔸 Merge the changes:
+    git merge origin/main
+
+🔸 Do it all in one step:
+    git pull origin main
+
+---
+
+💡 Tip:
+Always pull before pushing to avoid merge conflicts with others’ changes!
