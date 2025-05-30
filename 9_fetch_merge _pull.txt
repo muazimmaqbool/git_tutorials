@@ -55,7 +55,7 @@ This compares your local branch to the remote and shows what has changed.
 
 🔹 Step 5: Merge the Changes
 
-    git merge origin/main
+    git merge origin/master
 
 This merges the fetched changes into your local branch.
 
