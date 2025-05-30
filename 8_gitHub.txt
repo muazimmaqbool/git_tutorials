@@ -1,0 +1,91 @@
+=======================
+Introduction to GitHub
+=======================
+
+1️⃣ What is GitHub?
+--------------------
+🔹 GitHub is a **cloud-based platform** for hosting Git repositories.
+    Note: A repository is the most basic element of GitHub. It's a place where you can store your code, your files, and 
+          each file's revision history. Repositories can have multiple collaborators and can be either public or private.
+🔹 It allows individuals and teams to **collaborate**, **share code**, and **track version history**.
+🔹 It is built around Git — the version control system — and adds features like:
+   - Pull requests
+   - Issue tracking
+   - Actions for CI/CD
+   - Project boards and wikis
+
+🌍 Website: https://github.com
+
+---
+
+2️⃣ Brief History of GitHub
+----------------------------
+- Launched: **2008**
+- Founded by: Tom Preston-Werner, Chris Wanstrath, PJ Hyett, and Scott Chacon
+- Acquired by Microsoft in **2018**
+- It’s now the world’s largest host of source code.
+
+---
+
+3️⃣ Why Use GitHub?
+--------------------
+✅ Collaborate with others  
+✅ Work on open-source projects  
+✅ Backup your code online  
+✅ Showcase your work (your GitHub profile = your portfolio!)  
+✅ Easily share code across teams and devices  
+
+---
+
+4️⃣ How to Create a Repository on GitHub
+-----------------------------------------
+1. Go to https://github.com and log in  
+2. Click the **"+"** icon in the top right → **"New repository"**  
+3. Fill in:
+   - Repository name
+   - Description (optional)
+   - Public or Private
+   - Initialize with README (optional)
+4. Click **"Create repository"**
+
+---
+
+5️⃣ Connecting Local Repo to GitHub
+-----------------------------------
+🔹 Step 1: Initialize Git in your local project (if not done)
+    git init
+
+🔹 Step 2: Add your files and commit
+    git add .
+    git commit -m "Initial commit"
+
+🔹 Step 3: Add the GitHub repository as remote
+    git remote add origin https://github.com/your-username/your-repo-name.git
+
+🔹 Step 4: Push to GitHub
+    git push -u origin main
+
+Note:
+- Replace `main` with `master` if your default branch is named that.
+- You may be asked to log in or authenticate using a token.
+
+---
+
+6️⃣ Pulling from GitHub
+------------------------
+Command:
+    git pull origin main
+
+This will **fetch and merge** changes from the remote `main` branch into your local project.
+
+Use this regularly to **stay updated** with the latest code on GitHub.
+
+---
+
+✅ Summary
+-----------
+- GitHub hosts your Git repositories online
+- Helps teams and individuals collaborate
+- You push to upload, and pull to download updates
+- Use `git remote add origin <repo-url>` to connect your local repo to GitHub
+
