@@ -60,3 +60,10 @@ Incoming branch’s version
 ---------------------------------
 If the merge goes wrong or you're not ready to resolve conflicts, you can abort/cancel the merge.
 Command: git merge --abort
+
+---
+
+5️⃣ Abort a Merge:
+---------------------------------
+If the merge goes wrong or you're not ready to resolve conflicts, you can abort/cancel the merge.
+Command: git merge --abort
