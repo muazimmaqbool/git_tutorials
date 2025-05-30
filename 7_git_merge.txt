@@ -53,3 +53,8 @@ Your current branch’s version
 =======
 Incoming branch’s version
 >>>>>>> feature/login
+
+
+--- 
+5️⃣ Cancel/Abourt Merge?
+---------------------------------
