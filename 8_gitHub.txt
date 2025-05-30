@@ -79,6 +79,7 @@ Command:
     git pull origin main
 
 This will **fetch and merge** changes from the remote `main` branch into your local project.
+Note: pull is basically combination of two different commands: fetch and merge
 
 Use this regularly to **stay updated** with the latest code on GitHub.
 
