@@ -1,0 +1,105 @@
+==========================================
+Pushing a Local Branch to GitHub (Step-by-Step)
+==========================================
+
+📌 Scenario:
+You’ve created a new **local branch** to work on a feature. Now you want to:
+- Push it to GitHub
+- Collaborate or review via a Pull Request
+- Merge it into the main branch
+- Delete the feature branch if it’s no longer needed
+
+---
+
+1️⃣ Step 1: Create a New Local Branch
+---------------------------------------
+    git checkout -b feature/new-feature
+
+This creates and switches you to a new local branch called `feature/new-feature`.
+
+---
+
+2️⃣ Step 2: Make Some Changes
+------------------------------
+Modify any file or create a new one. For example:
+- Edit `index.html`
+- Add `about.html`
+
+---
+
+3️⃣ Step 3: Stage the Changes
+------------------------------
+    git add .
+
+This stages all new/modified files.
+
+---
+
+4️⃣ Step 4: Commit the Changes
+-------------------------------
+    git commit -m "Add new about page and update homepage"
+
+This records your changes locally.
+
+---
+
+5️⃣ Step 5: Push the Branch to GitHub
+--------------------------------------
+    git push origin feature/new-feature
+
+✅ This command:
+- Uploads your local branch to GitHub
+- Creates a remote branch with the same name
+
+---
+
+6️⃣ Step 6: Create a Pull Request (PR) on GitHub
+--------------------------------------------------
+1. Go to your repo on GitHub
+2. You’ll see a **"Compare & pull request"** button – click it  
+   (or go to the "Pull Requests" tab and click "New pull request")
+3. Choose the base (e.g., `main`) and compare it with your branch (e.g., `feature/new-feature`)
+4. Add a title & description and click **"Create pull request"**
+
+---
+
+7️⃣ Step 7: Merge the Pull Request
+------------------------------------
+- Review changes
+- Resolve any **merge conflicts** if GitHub shows them
+- Click **"Merge pull request"** → Confirm merge
+
+---
+
+8️⃣ Step 8: Delete the Branch (Optional)
+-----------------------------------------
+After merging, you can clean up:
+
+🔹 On GitHub (after PR is merged):
+    Click **"Delete branch"**
+
+🔹 Locally (optional):
+    git branch -d feature/new-feature
+
+If the branch isn't merged yet, use `-D` to force delete:
+    git branch -D feature/new-feature
+
+---
+
+✅ Summary
+-----------
+🔸 Create & work on a local branch:
+    git checkout -b feature/xyz
+
+🔸 Stage, commit, and push to GitHub:
+    git add .
+    git commit -m "message"
+    git push origin feature/xyz
+
+🔸 Create a Pull Request on GitHub  
+🔸 Merge and delete the branch if no longer needed
+
+---
+
+💡 Tip:
+Use descriptive names like `feature/login-page` or `fix/navbar-bug` for clarity.
