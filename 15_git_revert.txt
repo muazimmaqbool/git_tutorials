@@ -29,7 +29,7 @@ Basically revert command is used when we want to take the previous commit and ad
 
 Use:
 
-    git log
+    git log or git log --oneline
 
 Copy the **commit hash** of the commit you want to undo.
 
