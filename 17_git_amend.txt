@@ -1,0 +1,31 @@
+=======================
+git commit --amend
+=======================
+
+📌 What is `git commit --amend`?
+--------------------------------
+The `git commit --amend` command is used to **modify the most recent commit**.
+
+It lets you:
+- Change the last commit message
+- Add files you forgot to include in the previous commit
+- Combine small changes into the last commit
+
+---
+
+🧠 Why Use `--amend`?
+-----------------------
+✅ Fix a typo in the last commit message  
+✅ Add forgotten changes to the last commit  
+✅ Clean up your commit history before pushing  
+✅ Avoid creating unnecessary extra commits
+
+---
+
+🪜 Step-by-Step Usage
+-----------------------
+
+🔹 1. Change the last commit message:
+
+```bash
+git commit --amend
