@@ -6,6 +6,8 @@ git reset Command
 ----------------------------
 The `git reset` command is used to **undo changes** in your working directory and staging area by moving the `HEAD` (current branch pointer) to a specific commit.
 
+In simple terms it's used when we want to mpve the repository back to a specific commit, discarding any changes made after that commit
+
 It can:
 - Unstage files (move from staging back to working directory)
 - Discard commits
