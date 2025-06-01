@@ -1,0 +1,122 @@
+=======================
+git reset Command
+=======================
+
+📌 What is `git reset`?
+----------------------------
+The `git reset` command is used to **undo changes** in your working directory and staging area by moving the `HEAD` (current branch pointer) to a specific commit.
+
+It can:
+- Unstage files (move from staging back to working directory)
+- Discard commits
+- Reset your local working directory
+
+⚠️ Be careful: Some types of reset **remove commits permanently** if not used carefully.
+
+---
+
+🧠 Why Use `git reset`?
+----------------------------
+✅ To undo recent commits  
+✅ To unstage files  
+✅ To move the branch pointer back  
+✅ To clean working directory (optional)
+
+---
+
+🛠️ Types of Reset
+----------------------------
+
+1️⃣ `git reset --soft <commit>`
+- Moves HEAD to given commit  
+- Keeps changes in **staging (index)**
+- Use when you want to redo your last commit
+
+2️⃣ `git reset --mixed <commit>` (Default)
+- Moves HEAD to given commit  
+- Keeps changes in **working directory**, unstages them  
+- Use to unstage files
+
+3️⃣ `git reset --hard <commit>`
+- Moves HEAD to given commit  
+- **Discards all changes** in staging and working directory  
+⚠️ Danger: This deletes changes permanently unless backed up
+
+---
+
+🪜 Step-by-Step Usage
+----------------------------
+
+🔹 Step 1: View commit history
+
+    git log
+
+Copy the commit hash you want to reset to.
+
+🔹 Step 2: Choose reset type
+
+Examples:
+
+➤ Soft reset (keep all code changes staged):
+
+    git reset --soft a1b2c3d4
+
+➤ Mixed reset (unstage changes but keep code):
+
+    git reset --mixed a1b2c3d4
+    # or just: git reset a1b2c3d4
+
+➤ Hard reset (remove commits and code changes):
+
+    git reset --hard a1b2c3d4
+
+---
+
+📂 Example Scenario
+----------------------------
+
+You committed too early and want to undo the last commit but keep the changes:
+
+    git reset --soft HEAD~1
+
+You want to unstage files you added:
+
+    git reset
+
+You want to erase all changes and commits:
+
+    git reset --hard HEAD~2
+
+---
+
+🔄 Undoing a Reset (Recovery)
+------------------------------
+
+If you did a reset and want to undo it:
+
+1️⃣ Use `git reflog` to find your lost commits:
+
+    git reflog
+
+This shows history of HEAD changes.
+
+2️⃣ Restore HEAD to the previous commit:
+
+    git reset --hard <commit_from_reflog>
+
+⚠️ Works only if you haven’t exited your terminal or overwritten logs!
+
+---
+
+✅ Summary
+-------------
+🔸 `git reset` moves HEAD and optionally changes staging/working files  
+🔸 Use `--soft` to keep all changes  
+🔸 Use `--mixed` to unstage files  
+🔸 Use `--hard` to delete everything (⚠️ be cautious!)  
+🔸 Use `git reflog` to undo a reset if needed
+
+---
+
+💡 Tip:
+Use `git reset` for local-only work. For shared/public branches, prefer `git revert`.
