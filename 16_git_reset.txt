@@ -119,7 +119,7 @@ This shows history of HEAD changes.
 🔸 Use `git reflog` to undo a reset if needed
 
 ---
-
+Note: then do git pull first after rest
 💡 Tip:
 Use `git reset` for local-only work. For shared/public branches, prefer `git revert`.
 
