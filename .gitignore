@@ -3,3 +3,12 @@
 
 #Ignore all files in any directory named temp
 temp/
+
+# Ignore specific file
+debug.log
+
+# Ignore all files ending in `.tmp`
+*.tmp
+
+# Ignore specific file
+SecretFile.js
