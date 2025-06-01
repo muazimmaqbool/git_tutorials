@@ -1,3 +1,6 @@
+# Ignore specific file
+SecretFile.js
+
 #Ignore all files with .log extension
 *.log
 
@@ -9,6 +12,3 @@ debug.log
 
 # Ignore all files ending in `.tmp`
 *.tmp
-
-# Ignore specific file
-SecretFile.js
