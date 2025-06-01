@@ -25,7 +25,14 @@ It lets you:
 🪜 Step-by-Step Usage
 -----------------------
 
-🔹 1. Change the last commit message:
+🔹 Change the last commit message:
 
-```bash
-git commit --amend
+    git commit --amend -m "Git ammend command"
+
+->Add a forgotten file to the last commit:
+    git add forgotten-file.js
+    git commit --amend --no-edit
+
+->Add new changes and update message:
+    git add updated-file.js
+    git commit --amend -m "Updated commit with fixed changes"
