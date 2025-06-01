@@ -11,6 +11,8 @@ Unlike `git reset` (which changes history), `git revert` is **safe** for undoing
 Basically revert command is used when we want to take the previous commit and add it as a new commit
 ---
 
+-->this is temp change
+
 🧠 Why Use `git revert`?
 ----------------------------
 ✅ To undo a specific commit  
