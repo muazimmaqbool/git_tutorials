@@ -1,0 +1,100 @@
+=======================
+git revert Command
+=======================
+
+📌 What is `git revert`?
+----------------------------
+The `git revert` command is used to **undo** changes by creating a **new commit** that reverses the effects of a previous commit.
+
+Unlike `git reset` (which changes history), `git revert` is **safe** for undoing commits in shared/public repositories because it doesn’t rewrite commit history.
+
+Basically revert command is used when we want to take the previous commit and add it as a new commit
+---
+
+🧠 Why Use `git revert`?
+----------------------------
+✅ To undo a specific commit  
+✅ To keep your Git history clean and collaborative  
+✅ To fix mistakes without deleting previous commits  
+✅ Ideal for teams or when working on branches pushed to GitHub
+
+---
+
+🛠️ How to Use `git revert`
+----------------------------
+
+🔹 Step 1: Find the commit hash you want to revert
+
+Use:
+
+    git log
+
+Copy the **commit hash** of the commit you want to undo.
+
+Example:
+
+    commit a1b2c3d4e5f6...
+
+---
+
+🔹 Step 2: Revert the Commit
+
+    git revert a1b2c3d4
+
+This will:
+- Create a new commit that undoes the changes from the original commit
+- Open a text editor for the commit message (you can edit or accept the default)
+
+To skip the editor and add a message directly:
+
+    git revert a1b2c3d4 -m "Revert: Fix broken layout"
+
+---
+
+🔹 Step 3: Push the Revert Commit to GitHub
+
+    git push origin branch-name
+
+✅ Your repo now contains a new commit that safely undoes the old one.
+
+---
+
+💡 Example Scenario:
+------------------------
+
+You committed a bug:
+    git commit -m "Added buggy feature"
+
+You realize it later and want to undo it:
+    git log  → get commit hash  
+    git revert buggy_commit_hash  
+    git push
+
+Done. Bug undone safely ✅
+
+---
+
+📌 Notes:
+----------
+- Revert works **one commit at a time** by default
+- You can also revert a **range of commits** using:
+
+    git revert OLDEST_HASH^..NEWEST_HASH
+
+- If the revert causes conflicts, resolve them and then run:
+
+    git revert --continue
+
+---
+
+✅ Summary
+-------------
+🔸 `git revert` = Undo a commit **without** changing history  
+🔸 Used in collaborative/public repos  
+🔸 Creates a new commit that negates the previous one  
+🔸 Safer alternative to `git reset`
+
+---
+
+💡 Tip:
+Prefer `git revert` over `git reset` when working on branches shared with others.
