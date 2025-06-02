@@ -33,3 +33,9 @@ This allows you to:
 
 2️⃣ See list of stashed changes:
     > git stash list
+
+3️⃣ Re-apply latest stash:
+    > git stash apply
+
+4️⃣ Re-apply and delete stash:
+    > git stash pop
