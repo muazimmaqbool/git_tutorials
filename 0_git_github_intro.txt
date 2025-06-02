@@ -5,7 +5,7 @@ Basic Introduction to Git and GitHub:
   It allows multiple people to work on the same project simultaneously,
   without overwriting each other’s work. 
   
-  Git also enables you to:
+->Git also enables you to:
     Save versions of your code
     Switch between different features or experiments using branches
     Revert to earlier code states if needed
