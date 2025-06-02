@@ -39,3 +39,6 @@ This allows you to:
 
 4️⃣ Re-apply and delete stash:
     > git stash pop
+
+5️⃣ Clear all stashed items:
+    > git stash clear
