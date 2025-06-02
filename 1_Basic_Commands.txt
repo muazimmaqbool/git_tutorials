@@ -50,6 +50,10 @@ This will create a hidden `.git` folder in your project directory and start trac
 -----------------------------------
 Command: ls
 
+7️⃣ To Clear the Terminal
+-----------------------------
+Command: cls or clear
+
 
 ✅ Notes:
 --------
