@@ -1,0 +1,38 @@
+=======================
+git rebase Command
+=======================
+
+📌 What is `git rebase`?
+----------------------------
+`git rebase` is used to **move or combine a sequence of commits** to a new base commit. It allows you to "replay" your changes on top of another branch.
+
+It helps:
+- Keep history linear and clean
+- Integrate changes from one branch into another
+
+---
+
+🧠 Why Use Rebase?
+----------------------------
+✅ Makes project history easier to read  
+✅ Useful for feature branches to stay up-to-date  
+✅ Avoids unnecessary merge commits  
+✅ Rewrites commit history for cleaner collaboration
+
+---
+
+🛠️ How to Use `git rebase`
+--------------------------------
+
+🔹 1. Rebase your feature branch with the latest `main`:
+        git checkout feature-branch
+        git rebase main
+
+
+🔹 2. If conflicts occur, resolve them, then:
+        git add .
+        git rebase --continue
+
+🔹 3. To abort rebase and return to previous state:
+        git rebase --abort
+
