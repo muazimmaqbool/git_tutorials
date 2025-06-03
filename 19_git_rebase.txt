@@ -24,15 +24,15 @@ It helps:
 🛠️ How to Use `git rebase`
 --------------------------------
 
-🔹 1. Rebase your feature branch with the latest `main`:
+1️⃣ Rebase your feature branch with the latest `main`:
         git checkout feature-branch
         git rebase main
 
 
-🔹 2. If conflicts occur, resolve them, then:
+2️⃣ If conflicts occur, resolve them, then:
         git add .
         git rebase --continue
 
-🔹 3. To abort rebase and return to previous state:
+3️⃣ To abort rebase and return to previous state:
         git rebase --abort
 
