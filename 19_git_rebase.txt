@@ -41,7 +41,7 @@ You’ve been working on feature-1 but main has new commits.
         git checkout feature-1
         git fetch origin
         git rebase origin/main
-  Now your feature commits are placed on top of the updated main branch.
+Now your feature commits are placed on top of the updated main branch.
 
 🔁 Rebase vs Merge
 Feature	                     Merge	                         Rebase
@@ -50,3 +50,20 @@ History 	        Creates a merge commit	        Linear, clean history
 Collaboration	        Safer for shared branches	Best for local/private branches
 Conflict Handling	Happens once	                Might occur multiple times
 Command	                git merge main	                git rebase main
+
+📦 Rebase After Pulling
+If you want to pull and rebase in one step:
+        git pull --rebase origin main
+This avoids unnecessary merge commits during pulls.
+
+⚠️ Caution:
+        Avoid rebasing public/shared branches that others are working on, as it rewrites history.
+        Use rebase mainly for local feature branches.
+
+✅ Summary
+🔸 git rebase = replays your commits on a new base
+🔸 Cleaner history, no extra merge commits
+🔸 Great for local branches before merging
+🔸 Use --continue, --abort, and resolve conflicts if needed
+🔸 Avoid on branches others are using
+
