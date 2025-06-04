@@ -36,3 +36,17 @@ It helps:
 3️⃣ To abort rebase and return to previous state:
         git rebase --abort
 
+📂 Example Scenario
+You’ve been working on feature-1 but main has new commits.
+        git checkout feature-1
+        git fetch origin
+        git rebase origin/main
+  Now your feature commits are placed on top of the updated main branch.
+
+🔁 Rebase vs Merge
+Feature	                     Merge	                         Rebase
+------------------|-------------------------------|------------------------------
+History 	        Creates a merge commit	        Linear, clean history
+Collaboration	        Safer for shared branches	Best for local/private branches
+Conflict Handling	Happens once	                Might occur multiple times
+Command	                git merge main	                git rebase main
