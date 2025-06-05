@@ -34,12 +34,14 @@ Example output:
 
 Displays a compact view:
     9a8c7b1 Add login component layout
+    i.e commit hash mesage
 
 🔹 Show a specific number of commits:
     git log -n 5     # shows last 5 commits
+    over git log --oneline -n 2 filename
 
 🔹 Show commits for a specific file:
-    git log <filename>
+    git log <filename> or git log --oneline filename
 
 🔹 Pretty format (custom display):
     git log --pretty=format:"%h - %an - %s"
