@@ -2,8 +2,7 @@ Basic Introduction to Git and GitHub:
 
 ->What is Git?
   Git is a free and open-source distributed version control system that helps developers track changes in their code.
-  It allows multiple people to work on the same project simultaneously,
-  without overwriting each other’s work. 
+  It allows multiple people to work on the same project simultaneously, without overwriting each other’s work. 
   
 ->Git also enables you to:
     Save versions of your code
