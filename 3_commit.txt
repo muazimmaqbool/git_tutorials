@@ -49,7 +49,7 @@ What it does:
 - `-a`: Automatically stages all **tracked** files that have been modified.
 - `-m`: Adds a commit message.
 
-⚠️ Note: This only works on **already tracked files**. It will **not** include untracked (new) files.
+⚠️ Note: This -a only works on **already tracked files**. It will **not** include untracked (new) files.
 
 Example:
     git commit -a -m "Fix footer alignment issue"
