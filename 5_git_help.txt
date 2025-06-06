@@ -23,7 +23,6 @@ Output:
            ...
 
 ✅ Use this when you want to explore available Git commands.
-
 ---
 
 2️⃣ git <command> --help
