@@ -4,10 +4,10 @@ Introduction to GitHub
 
 1️⃣ What is GitHub?
 --------------------
-🔹 GitHub is a **cloud-based platform** for hosting Git repositories.
+🔹 GitHub is a cloud-based platform for hosting Git repositories.
     Note: A repository is the most basic element of GitHub. It's a place where you can store your code, your files, and 
           each file's revision history. Repositories can have multiple collaborators and can be either public or private.
-🔹 It allows individuals and teams to **collaborate**, **share code**, and **track version history**.
+🔹 It allows individuals and teams to collaborate, share code, and track version history.
 🔹 It is built around Git — the version control system — and adds features like:
    - Pull requests
    - Issue tracking
@@ -20,9 +20,9 @@ Introduction to GitHub
 
 2️⃣ Brief History of GitHub
 ----------------------------
-- Launched: **2008**
+- Launched: 2008
 - Founded by: Tom Preston-Werner, Chris Wanstrath, PJ Hyett, and Scott Chacon
-- Acquired by Microsoft in **2018**
+- Acquired by Microsoft in 2018
 - It’s now the world’s largest host of source code.
 
 ---
@@ -40,13 +40,13 @@ Introduction to GitHub
 4️⃣ How to Create a Repository on GitHub
 -----------------------------------------
 1. Go to https://github.com and log in  
-2. Click the **"+"** icon in the top right → **"New repository"**  
+2. Click the "+" icon in the top right → "New repository"
 3. Fill in:
    - Repository name
    - Description (optional)
    - Public or Private
    - Initialize with README (optional)
-4. Click **"Create repository"**
+4. Click "Create repository"
 
 ---
 
