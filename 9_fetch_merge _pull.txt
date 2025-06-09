@@ -4,8 +4,8 @@ Fetching, Merging, and Pulling in Git
 
 1️⃣ Scenario:
 -------------
-If someone makes changes to a file in the **GitHub remote repository**,  
-you’ll need to bring those changes into your **local repository** to stay updated.
+If someone makes changes to a file in the "GitHub remote repository",  
+you’ll need to bring those changes into your "local repository" to stay updated.
 
 ---
 
