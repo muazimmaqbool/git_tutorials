@@ -12,7 +12,7 @@ Introduction to GitHub
    - Pull requests
    - Issue tracking
    - Actions for CI/CD
-   - Project boards and wikis
+   - Project boards and much more
 
 🌍 Website: https://github.com
 
@@ -78,10 +78,10 @@ Note:
 Command:
     git pull origin main
 
-This will **fetch and merge** changes from the remote `main` branch into your local project.
+This will "fetch and merge" changes from the remote `main` branch into your local project.
 Note: pull is basically combination of two different commands: fetch and merge
 
-Use this regularly to **stay updated** with the latest code on GitHub.
+Use this regularly to "stay updated" with the latest code on GitHub.
 
 ---
 
