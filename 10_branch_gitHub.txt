@@ -6,7 +6,7 @@ Working with GitHub Branches Locally
 ------------------------------------
 🔹 Step 1: Go to your repository on https://github.com  
 🔹 Step 2: Click the dropdown showing current branch (usually "main" or "master")  
-🔹 Step 3: Type a new branch name and click **"Create branch: your-branch-name"**
+🔹 Step 3: Type a new branch name and click "Create branch: your-branch-name"
 
 ✅ A new remote branch is now created on GitHub.
 
