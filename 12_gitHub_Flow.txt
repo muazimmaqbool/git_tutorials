@@ -4,12 +4,12 @@ GitHub Flow Explained
 
 📌 What is GitHub Flow?
 ------------------------
-**GitHub Flow** is a lightweight, branch-based workflow designed for teams and individuals who work on code collaboratively.  
+"GitHub Flow" is a lightweight, branch-based workflow designed for teams and individuals who work on code collaboratively.  
 It’s perfect for projects that deploy regularly and need continuous integration.
 
 ---
 
-🔁 Typical GitHub Workflow Steps
+🔁 Typical GitHub Workflow Steps:
 ---------------------------------
 
 1️⃣ Create a Branch
@@ -100,4 +100,5 @@ Optionally delete the feature branch after merging.
 ---
 
 💡 Tip:
-GitHub Flow is simple, effective, and widely used in open-source and team environments. It promotes collaboration and keeps your main branch always ready for deployment.
+GitHub Flow is simple, effective, and widely used in open-source and team environments. 
+It promotes collaboration and keeps your main branch always ready for deployment.
