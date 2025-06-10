@@ -3,11 +3,11 @@ Pushing a Local Branch to GitHub (Step-by-Step)
 ==========================================
 
 📌 Scenario:
-You’ve created a new **local branch** to work on a feature. Now you want to:
+You’ve created a new "local branch" to work on a feature. Now you want to:
 - Push it to GitHub
 - Collaborate or review via a Pull Request
 - Merge it into the main branch
-- Delete the feature branch if it’s no longer needed
+- Then delete the feature branch if it’s no longer needed
 
 ---
 
