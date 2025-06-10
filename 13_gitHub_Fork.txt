@@ -4,7 +4,7 @@ GitHub Fork Explained
 
 📌 What is a Fork?
 ---------------------
-A **fork** is a personal copy of someone else’s repository on GitHub.
+A "fork" is a personal copy of someone else’s repository on GitHub.
 
 It allows you to:
 - Experiment with changes without affecting the original project
@@ -59,7 +59,6 @@ Example:
 🔸 **Why fork?** To contribute, modify, or learn from the code  
 🔸 **How to fork?** Click "Fork" on GitHub  
 🔸 **How to clone fork?**
-
     git clone https://github.com/your-username/project-name.git
 
 ---
