@@ -6,7 +6,7 @@
 ----------------------------
 A `.gitignore` file tells Git which **files or folders** to ignore (not track) in a repository.
 
-When you `git add .`, Git skips any files or directories listed in `.gitignore`.
+When you do `git add .`, Git skips any files or directories listed in `.gitignore` file.
 
 ---
 
@@ -39,11 +39,10 @@ Inside `.gitignore`, list patterns of files/folders you want Git to ignore:
 
 Examples:
 
-```txt
 # Ignore node modules
 node_modules/
 
-# Ignore log files
+# Ignore all log files
 *.log
 
 # Ignore environment files
