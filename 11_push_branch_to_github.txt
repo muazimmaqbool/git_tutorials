@@ -13,9 +13,9 @@ You’ve created a new "local branch" to work on a feature. Now you want to:
 
 1️⃣ Step 1: Create a New Local Branch
 ---------------------------------------
-    git checkout -b test-branch-name
+    git checkout -b feature/new-feature
 
-This creates and switches you to a new local branch called `test-branch-name`.
+This creates and switches you to a new local branch called `feature/new-feature`.
 
 ---
 
