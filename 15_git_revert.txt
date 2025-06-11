@@ -4,13 +4,12 @@ git revert Command
 
 📌 What is `git revert`?
 ----------------------------
-The `git revert` command is used to "undo" changes by creating a "new commit" that reverses the effects of a previous commit.
+The `git revert` command is used to **undo** changes by creating a **new commit** that reverses the effects of a previous commit.
 
 Unlike `git reset` (which changes history), `git revert` is **safe** for undoing commits in shared/public repositories because it doesn’t rewrite commit history.
 
 Basically revert command is used when we want to take the previous commit and add it as a new commit
 ---
- test change
 
 🧠 Why Use `git revert`?
 ----------------------------
