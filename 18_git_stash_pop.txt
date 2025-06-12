@@ -4,13 +4,12 @@ git stash and pop Command
 
 📌 What is `git stash`?
 ----------------------------
-`git stash` is used to **temporarily save uncommitted changes** (both staged and unstaged) without committing them.
+`git stash` is used to "temporarily save uncommitted changes" (both staged and unstaged) without committing them.
 
 This allows you to:
 - Switch branches
 - Pull updates
-- Fix something urgent  
-…without losing your current work!
+- Fix something urgent (without losing your current work!)
 
 ---
 
