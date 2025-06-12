@@ -4,7 +4,7 @@ git commit --amend
 
 📌 What is `git commit --amend`?
 --------------------------------
-The `git commit --amend` command is used to **modify the most recent commit**.
+The `git commit --amend` command is used to "modify the most recent commit".
 
 It lets you:
 - Change the last commit message
